@@ -1,0 +1,26 @@
+# Android Build-Ausgaben
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# App-Build
+app/build/
+
+# Keystore – NIEMALS einchecken!
+*.jks
+*.keystore
+keystore.properties
+
+# Debug-Dateien
+*.ap_
+*.dex
+
+# Log-Dateien
+*.log
