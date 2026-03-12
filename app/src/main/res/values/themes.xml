@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.BitcoinDashboard" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Bitcoin-Orange als Primärfarbe -->
+        <item name="colorPrimary">#f7931a</item>
+        <item name="colorPrimaryVariant">#d4700d</item>
+        <item name="colorOnPrimary">#1a0800</item>
+        <item name="colorSecondary">#6387ff</item>
+        <item name="colorOnSecondary">#ffffff</item>
+
+        <!-- Dunkler Hintergrund wie das Dashboard -->
+        <item name="android:windowBackground">#060a10</item>
+        <item name="android:statusBarColor">#060a10</item>
+        <item name="android:navigationBarColor">#060a10</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Vollbild ohne Titelleiste -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

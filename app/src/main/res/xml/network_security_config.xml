@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Nur HTTPS erlaubt -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+
+    <!-- Erlaubte API-Domains (explizit) -->
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">api.binance.com</domain>
+        <domain includeSubdomains="true">min-api.cryptocompare.com</domain>
+        <domain includeSubdomains="true">api.alternative.me</domain>
+        <domain includeSubdomains="true">api.rss2json.com</domain>
+        <domain includeSubdomains="true">corsproxy.io</domain>
+        <domain includeSubdomains="true">api.allorigins.win</domain>
+        <domain includeSubdomains="true">thingproxy.freeboard.io</domain>
+        <domain includeSubdomains="true">www.blocktrainer.de</domain>
+    </domain-config>
+</network-security-config>
