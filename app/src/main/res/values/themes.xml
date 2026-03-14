@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.BTCDashboard" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">#060a10</item>
+        <item name="android:statusBarColor">#060a10</item>
+        <item name="android:navigationBarColor">#060a10</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>
